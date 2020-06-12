@@ -1,0 +1,39 @@
+.messageContainer {
+  padding: 1.2rem;
+  margin: 1rem 1rem;
+  border-radius: 1rem;
+  width: 50%;
+  font-size: 1.3rem;
+  word-wrap: break-word;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.self {
+  background-color: #009688;
+  color: #fff;
+}
+
+.other {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.name {
+  background-color: #fff;
+  color: #000;
+  padding: 2px;
+  margin-left: 1rem;
+  border-radius: 0.5rem;
+}
